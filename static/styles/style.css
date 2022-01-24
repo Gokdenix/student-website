@@ -1,8 +1,35 @@
 #body{
-  background-color: rgb(250,210,210);
-
+  background-color: ghostwhite;
 }
 p {
+  font-family:verdana;
   font-size: 22px;
   font-weight: bold;
+}
+header{
+  background-color: lightsteelblue;
+  border-style: solid;
+  border-width:1 px;
+  border-color:lightsteelblue;
+  border-radius: 10px;
+}
+nav {
+  background-color: lightsteelblue;
+  border-style: solid;
+  border-width:1 px;
+  border-color:lightsteelblue;
+  border-radius: 10px;
+  text-align: center;
+}
+#nav-list{
+  list-style-type: none;
+  padding : none;
+  margin : none;
+}
+.navlist-item{
+  text-align: center;
+  display: inline;
+  font-family:verdana;
+  font-weight: bold;
+  padding :25px;
 }
